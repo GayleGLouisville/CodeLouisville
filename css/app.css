@@ -29,19 +29,33 @@
 
 /*heading styles*/
 h1 {
+    font-size: 4em;
     font-weight: bold;
+    text-align: center;
+    line-height: 100%;
     }
 
 h2 {
+    Font-size: 3em;
     font-weight: bold;
     color: #ed1c24;
+    line-height: 100%;
     }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 2.75em;
     font-weight: bolder;
     color: #ed1c24;
+    line-height: 100%;
     }
+
+h4 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ed1c24;
+    line-height: 100%;
+    }
+}
 /*heading styles end*/
 
 /*paragraph styles*/
@@ -53,8 +67,7 @@ h3 {
 
 .logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     margin-top: 95px;
     }
 
@@ -70,34 +83,38 @@ ul {
 
 /* Quizz styles start */
 div#quiz { 
-    border:#000 2px solid; 
+    border:#a9a9a9 2px solid; 
     margin-bottom: 50px;
+    border-radius: 15px;
     padding: 10px 25px 40px 40px; 
     }
 
-#qbutton {
-  color: #fff;
-  background-color: #ed1c24;
-  min-height: 25px;
-  min-width: 150px;
-  border: none;
-  border-radius: 15px;
-}
+#qbutton{
+    font-size: .75em;
+    font-weight: bold;  
+    color: #fff;
+    background-color: #ed1c24;
+    min-height: 30px;
+    min-width: 100px;
+    border: none;
+    border-radius: 15px;
+    display: block;
+    }
 /* Quizz styles end */
 
 
 /*Rules weapon container*/
 #container {
-    border: 2px black solid;
+    border: 2px #a9a9a9 solid;
     margin-bottom: 50px;
     border-radius: 15px;
-    padding: 20px;
-     margin: 25px 50px;
+    padding: 10px;
+    margin: auto;
 }
 
 /*Section container*/
 #Scontainer {
-    border: 2px black solid;
+    border: 2px #a9a9a9 solid;
     margin-bottom: 50px;
     border-radius: 15px;
     padding: 20px;
@@ -106,15 +123,16 @@ div#quiz {
 
 /*styles for return to top button*/
 #tBtn {
-  font-size: 2em;
+  font-size: 1em;
   font-weight: bolder;  
-  color: #fff;
-  background-color: #000;
+  color: #000;
+  background-color: #a9a9a9;
   min-height: 50px;
   min-width: 50px;
   border: none;
   border-radius: 100%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px;
+  float: right;
+ 
 }
