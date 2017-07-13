@@ -89,6 +89,16 @@ div#quiz {
     padding: 10px 25px 40px 40px; 
     }
 
+    #quiz .input-group {
+        margin-bottom: 8px;
+    }
+
+    #quiz input[type="radio"] {
+        margin: 8px 8px 0 0;
+        height: 12px;
+        width: 12px;
+    }
+
 #qbutton{
     font-size: .75em;
     font-weight: bold;  
@@ -123,7 +133,7 @@ div#quiz {
 
 /*styles for return to top button*/
 #tBtn {
-  font-size: 12px;
+  font-size: 1em;
   font-weight: bolder;  
   color: #000;
   background-color: #a9a9a9;
