@@ -123,7 +123,7 @@ div#quiz {
 
 /*styles for return to top button*/
 #tBtn {
-  font-size: 1em;
+  font-size: 12px;
   font-weight: bolder;  
   color: #000;
   background-color: #a9a9a9;
