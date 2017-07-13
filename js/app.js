@@ -23,7 +23,7 @@ function _(x){
 function renderQuestion(){
 	quiz = _("quiz");
 	if(pos >= questions.length){
-		quiz.innerHTML = "<h2>You got "+correct+" of "+questions.length+" questions correct!</h2>";
+		quiz.innerHTML = "<h3>You got "+correct+" of "+questions.length+" questions correct!</h3>";
 		_("quiz_status").innerHTML = "Quiz Completed";
 		pos = 0; /*resets the quiz back to the start*/
 		correct = 0;
@@ -34,7 +34,7 @@ function renderQuestion(){
 	chA = questions[pos][1]; /*possible answers*/
 	chB = questions[pos][2];
 	chC = questions[pos][3];
-	quiz.innerHTML = "<h3>"+question+"</h3>"; /*populates the question */
+	quiz.innerHTML = "<h4>"+question+"</h4>"; /*populates the question */
   /*radio buttons*/
 	quiz.innerHTML += "<input type='radio' name='choices' value='A'> "+chA+"<br>";
 	quiz.innerHTML += "<input type='radio' name='choices' value='B'> "+chB+"<br>";
@@ -62,6 +62,3 @@ window.addEventListener("load", renderQuestion, false);
 
 /*end quiz script*/
 
-/*Top button start*/
-
-/*top button end*/
