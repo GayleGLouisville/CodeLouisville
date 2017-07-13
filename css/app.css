@@ -132,7 +132,6 @@ div#quiz {
   border: none;
   border-radius: 100%;
   display: block;
-  margin: 10px;
-  float: right;
+  margin: auto;
  
 }
