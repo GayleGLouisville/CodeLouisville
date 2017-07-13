@@ -91,6 +91,17 @@ div#quiz {
     border: 2px black solid;
     margin-bottom: 50px;
     border-radius: 15px;
+    padding: 20px;
+     margin: 25px 50px;
+}
+
+/*Section container*/
+#Scontainer {
+    border: 2px black solid;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 25px 50px;
 }
 
 /*styles for return to top button*/
