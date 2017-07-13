@@ -36,9 +36,9 @@ function renderQuestion(){
 	chC = questions[pos][3];
 	quiz.innerHTML = "<h4>"+question+"</h4>"; /*populates the question */
   /*radio buttons*/
-	quiz.innerHTML += "<input type='radio' name='choices' value='A'> "+chA+"<br>";
-	quiz.innerHTML += "<input type='radio' name='choices' value='B'> "+chB+"<br>";
-	quiz.innerHTML += "<input type='radio' name='choices' value='C'> "+chC+"<br><br>";
+	quiz.innerHTML += "<div class='input-group'><input type='radio' name='choices' value='A'> "+chA+"</div>";
+	quiz.innerHTML += "<div class='input-group'><input type='radio' name='choices' value='B'> "+chB+"</div>";
+	quiz.innerHTML += "<div class='input-group'><input type='radio' name='choices' value='C'> "+chC+"</div>";
 	/*Submit button*/
   	quiz.innerHTML += "<button id='qbutton' onclick='checkAnswer()'>Submit Answer</button>";
 }
